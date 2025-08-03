@@ -1,4 +1,4 @@
-package com.andrelzinn.musicrecommend;
+package com.andrelzinn.musicrecommend.spotify;
 
 
 import java.io.IOException;

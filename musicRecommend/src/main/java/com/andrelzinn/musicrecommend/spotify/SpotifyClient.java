@@ -1,4 +1,4 @@
-package com.andrelzinn.musicrecommend;
+package com.andrelzinn.musicrecommend.spotify;
 
 import com.google.gson.Gson;
 import okhttp3.OkHttpClient;
@@ -9,7 +9,7 @@ import okhttp3.ConnectionPool;
 import java.util.concurrent.TimeUnit;
 
 public class SpotifyClient {
-  private static final OkHttpClient client = new OkHttpClient();
+  private final OkHttpClient client = new OkHttpClient();
   private static final Gson gson = new Gson();
 
   public String getMusicFromApi(String url) throws Exception {
@@ -31,7 +31,7 @@ public class SpotifyClient {
   }
 
   
-  public static void shutdown() {
+  public void shutdown() {
     try {
       client.dispatcher().executorService().shutdown();
 

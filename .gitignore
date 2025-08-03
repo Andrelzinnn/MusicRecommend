@@ -1,3 +1,5 @@
 flake.lock
 flake.nix
 musicRecommend/src/main/resources
+musicRecommend/target
+musicRecommend/.*class

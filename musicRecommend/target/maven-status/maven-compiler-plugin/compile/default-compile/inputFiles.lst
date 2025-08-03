@@ -1,4 +1,6 @@
 /home/andrelzinn/.projects/musicRecommend/musicRecommend/src/main/java/com/andrelzinn/musicrecommend/App.java
-/home/andrelzinn/.projects/musicRecommend/musicRecommend/src/main/java/com/andrelzinn/musicrecommend/Music.java
-/home/andrelzinn/.projects/musicRecommend/musicRecommend/src/main/java/com/andrelzinn/musicrecommend/SpotifyAuth.java
-/home/andrelzinn/.projects/musicRecommend/musicRecommend/src/main/java/com/andrelzinn/musicrecommend/SpotifyClient.java
+/home/andrelzinn/.projects/musicRecommend/musicRecommend/src/main/java/com/andrelzinn/musicrecommend/music/Album.java
+/home/andrelzinn/.projects/musicRecommend/musicRecommend/src/main/java/com/andrelzinn/musicrecommend/music/Artist.java
+/home/andrelzinn/.projects/musicRecommend/musicRecommend/src/main/java/com/andrelzinn/musicrecommend/music/Music.java
+/home/andrelzinn/.projects/musicRecommend/musicRecommend/src/main/java/com/andrelzinn/musicrecommend/spotify/SpotifyAuth.java
+/home/andrelzinn/.projects/musicRecommend/musicRecommend/src/main/java/com/andrelzinn/musicrecommend/spotify/SpotifyClient.java
